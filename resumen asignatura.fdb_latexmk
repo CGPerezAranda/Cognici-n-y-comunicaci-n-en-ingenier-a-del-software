@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1743002620.05408 "/home/carlos/Documentos/Cognici-n-y-comunicaci-n-en-ingenier-a-del-software/resumen asignatura.tex" "resumen asignatura.pdf" "resumen asignatura" 1743002622.19738 0
+["pdflatex"] 1743004466.93037 "/home/carlos/Documentos/Cognici-n-y-comunicaci-n-en-ingenier-a-del-software/resumen asignatura.tex" "resumen asignatura.pdf" "resumen asignatura" 1743004468.33777 0
   "/etc/texmf/web2c/texmf.cnf" 1742129091.75982 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/carlos/Documentos/Cognici-n-y-comunicaci-n-en-ingenier-a-del-software/resumen asignatura.tex" 1743002619.35425 16495 820755a2aaffa7781f53bb6389098a6f ""
+  "/home/carlos/Documentos/Cognici-n-y-comunicaci-n-en-ingenier-a-del-software/resumen asignatura.tex" 1743004466.56337 16897 145608248fda8051f9951e561e9e66a9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -84,9 +84,9 @@
   "Images/0319.jpg" 1742396239.36353 96742 857ea518ba1bbaf6f616afa8c69b1a56 ""
   "Images/0325.jpg" 1742998916.51601 270999 92da1b02d8f8bd1529709ab5f25cc282 ""
   "Images/0326.jpg" 1742999360.4883 93527 b12ab4995a47db9d0d2a4759a353c2c6 ""
-  "resumen asignatura.aux" 1743002621.90224 6585 3daef8301645a5d9ae4858c2970182ed "pdflatex"
-  "resumen asignatura.out" 1743002621.90624 6406 3becca1258c9c3231a875744d6fe256b "pdflatex"
-  "resumen asignatura.tex" 1743002619.35425 16495 820755a2aaffa7781f53bb6389098a6f ""
+  "resumen asignatura.aux" 1743004468.09538 6595 ca3d8c5aeb43f013be45d7df817e4291 "pdflatex"
+  "resumen asignatura.out" 1743004468.09938 6474 21854f409fd82d1be64b56b800c7b4a9 "pdflatex"
+  "resumen asignatura.tex" 1743004466.56337 16897 145608248fda8051f9951e561e9e66a9 ""
   (generated)
   "resumen asignatura.aux"
   "resumen asignatura.log"
