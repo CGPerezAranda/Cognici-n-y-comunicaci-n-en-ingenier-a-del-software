@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.16)  31 MAR 2025 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.16)  1 APR 2025 19:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -253,7 +253,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: No \author given.
 
-<./Images/0304.jpg, id=184, 730.73pt x 483.8075pt>
+<./Images/0304.jpg, id=205, 730.73pt x 483.8075pt>
 File: ./Images/0304.jpg Graphic file (type jpg)
 <use ./Images/0304.jpg>
 Package pdftex.def Info: ./Images/0304.jpg  used on input line 28.
@@ -319,7 +319,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
 [4]
-<./Images/0305.jpg, id=208, 523.9575pt x 314.67563pt>
+<./Images/0305.jpg, id=228, 523.9575pt x 314.67563pt>
 File: ./Images/0305.jpg Graphic file (type jpg)
 <use ./Images/0305.jpg>
 Package pdftex.def Info: ./Images/0305.jpg  used on input line 121.
@@ -375,7 +375,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \. on input line 218.
 LaTeX Info: Redefining \% on input line 218.
 [7]
-<./Images/0310.jpg, id=223, 765.86125pt x 426.59375pt>
+<./Images/0310.jpg, id=243, 765.86125pt x 426.59375pt>
 File: ./Images/0310.jpg Graphic file (type jpg)
 <use ./Images/0310.jpg>
 Package pdftex.def Info: ./Images/0310.jpg  used on input line 226.
@@ -405,7 +405,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \. on input line 301.
 LaTeX Info: Redefining \% on input line 301.
 [9]
-<./Images/0318.jpg, id=234, 660.21657pt x 367.3725pt>
+<./Images/0318.jpg, id=254, 660.21657pt x 367.3725pt>
 File: ./Images/0318.jpg Graphic file (type jpg)
 <use ./Images/0318.jpg>
 Package pdftex.def Info: ./Images/0318.jpg  used on input line 331.
@@ -433,7 +433,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--345
 
  []
 
-<./Images/0319.jpg, id=241, 662.475pt x 365.86688pt>
+<./Images/0319.jpg, id=261, 662.475pt x 365.86688pt>
 File: ./Images/0319.jpg Graphic file (type jpg)
 <use ./Images/0319.jpg>
 Package pdftex.def Info: ./Images/0319.jpg  used on input line 353.
@@ -451,7 +451,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \. on input line 361.
 LaTeX Info: Redefining \% on input line 361.
 [11 <./Images/0318.jpg>]
-<./Images/0325.jpg, id=247, 804.00375pt x 435.6275pt>
+<./Images/0325.jpg, id=267, 804.00375pt x 435.6275pt>
 File: ./Images/0325.jpg Graphic file (type jpg)
 <use ./Images/0325.jpg>
 Package pdftex.def Info: ./Images/0325.jpg  used on input line 384.
@@ -477,7 +477,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \. on input line 412.
 LaTeX Info: Redefining \% on input line 412.
 [13 <./Images/0325.jpg>]
-<./Images/0326.jpg, id=259, 653.44125pt x 373.395pt>
+<./Images/0326.jpg, id=279, 653.44125pt x 373.395pt>
 File: ./Images/0326.jpg Graphic file (type jpg)
 <use ./Images/0326.jpg>
 Package pdftex.def Info: ./Images/0326.jpg  used on input line 429.
@@ -502,7 +502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
-<./Images/0331.jpg, id=265, 740.0147pt x 452.4403pt>
+<./Images/0331.jpg, id=285, 740.0147pt x 452.4403pt>
 File: ./Images/0331.jpg Graphic file (type jpg)
 <use ./Images/0331.jpg>
 Package pdftex.def Info: ./Images/0331.jpg  used on input line 468.
@@ -539,6 +539,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
+<./Images/0401.jpg, id=290, 964.60374pt x 344.28625pt>
+File: ./Images/0401.jpg Graphic file (type jpg)
+<use ./Images/0401.jpg>
+Package pdftex.def Info: ./Images/0401.jpg  used on input line 491.
+(pdftex.def)             Requested size: 350.99762pt x 125.2773pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+
+ []
+
+
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -546,28 +563,67 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
-[16 <./Images/0331.jpg>] (./resumen asignatura.aux
+LaTeX Info: Redefining \. on input line 498.
+LaTeX Info: Redefining \% on input line 498.
+[16 <./Images/0331.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+[17 <./Images/0401.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+LaTeX Info: Redefining \. on input line 513.
+LaTeX Info: Redefining \% on input line 513.
+[18] (./resumen asignatura.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 Package rerunfilecheck Info: File `"resumen asignatura".out' has not changed.
-(rerunfilecheck)             Checksum: 37FB7AC82579AAA4F73260549F241D98;6713.
+(rerunfilecheck)             Checksum: 364A7EA167C61ABB7334CBACBFCDA61D;7405.
  ) 
 Here is how much of TeX's memory you used:
- 10226 strings out of 476025
- 164566 string characters out of 5790017
+ 10246 strings out of 476025
+ 164879 string characters out of 5790017
  1860388 words of memory out of 5000000
- 30494 multiletter control sequences out of 15000+600000
+ 30505 multiletter control sequences out of 15000+600000
  518498 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,76p,605b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,605b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "resumen asignatura.pdf" (16 pages, 1326940 bytes).
+Output written on "resumen asignatura.pdf" (18 pages, 1535485 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
