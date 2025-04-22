@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1745341057 "/Users/carlosperezaranda/Mi unidad/Universidad/24-25/2º Semestre/C&C/resumen asignatura.tex" "resumen asignatura.pdf" "resumen asignatura" 1745341057 0
-  "/Users/carlosperezaranda/Mi unidad/Universidad/24-25/2º Semestre/C&C/resumen asignatura.tex" 1745341056 23246 8ba05805bddc60b1a26907959d30c45a ""
+["pdflatex"] 1745345458 "/Users/carlosperezaranda/Mi unidad/Universidad/24-25/2º Semestre/C&C/resumen asignatura.tex" "resumen asignatura.pdf" "resumen asignatura" 1745345458 0
+  "/Users/carlosperezaranda/Mi unidad/Universidad/24-25/2º Semestre/C&C/resumen asignatura.tex" 1745345457 23430 286b1df9b780d32c42b387a867e63dfd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -87,9 +87,9 @@
   "Images/0326.jpg" 1743244252 93527 b12ab4995a47db9d0d2a4759a353c2c6 ""
   "Images/0331.jpg" 1743445750 67633 a1b53e66ea3fa7af91b538e4678655f5 ""
   "Images/0401.jpg" 1743522261 206066 6e5bd116f9c941b763cc8c3e499e73ac ""
-  "resumen asignatura.aux" 1745341057 9331 c37d34b845e18d3914cfbcd26b3ecf27 "pdflatex"
-  "resumen asignatura.out" 1745341057 9102 756d6b5c8ef467bbebde22647e14f9ec "pdflatex"
-  "resumen asignatura.tex" 1745341056 23246 8ba05805bddc60b1a26907959d30c45a ""
+  "resumen asignatura.aux" 1745345458 9453 1cca5448b187f037f81dcb0f7b8dcab0 "pdflatex"
+  "resumen asignatura.out" 1745345458 9222 7e94b23d975523d9cfd693824ef4eceb "pdflatex"
+  "resumen asignatura.tex" 1745345457 23430 286b1df9b780d32c42b387a867e63dfd ""
   (generated)
   "resumen asignatura.aux"
   "resumen asignatura.log"
