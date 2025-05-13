@@ -1,0 +1,177 @@
+\documentclass[12pt, a4paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{Wishful Thinking.}
+\fancyhead[L]{Carlos G. Pérez Aranda. }
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
+
+\graphicspath{{./images/}}
+\title{Wishful Thinking.}
+\author{Carlos G. Pérez Aranda}
+
+\begin{document}
+\maketitle
+\newpage
+\section{Definición y Naturaleza del Pensamiento Ilusorio}
+Las fuentes definen el pensamiento ilusorio como la noción de que el deseo por un resultado infla el optimismo sobre ese resultado, 
+también conocido como sesgo de deseabilidad~\cite{krizan2009wishful} y, por lo tanto, interpretan la información de manera optimista~\cite{caplin2019wishful}. 
+Esto implica elegir creer que la verdad es lo que uno desearía que fuera, especialmente cuando el bienestar actual depende de las creencias sobre el futuro. 
+Se describe como un sesgo en las predicciones donde es más probable que las personas crean un evento simplemente porque les beneficia. 
+
+Cuanto mayor es la 
+utilidad que obtienen si el evento es cierto, mayor es su probabilidad subjetiva de que sea cierto. Algunos autores sugieren que los agentes pueden exhibir 
+estos sesgos incluso si son subjetivamente bayesianos.
+
+\section{Distinciones y Conceptos Relacionados}
+Es crucial distinguir el pensamiento ilusorio de conceptos más generales~\cite{krizan2009wishful}. Por ejemplo, se argumenta que el pensamiento ilusorio, 
+tal como se define (aplicado a pronósticos donde la persona no espera influir en el resultado), es distinto del razonamiento motivado general, particularmente porque 
+los pronósticos a menudo se enfrentan a un ``momento de la verdad''~\cite{krizan2009wishful}.
+
+Las fuentes enfatizan que el sobreoptimismo per se o las correlaciones entre preferencias y optimismo no son suficientes para inferir pensamiento ilusorio~\cite{krizan2009wishful}.
+El sobreoptimismo puede ser resultado de sesgos cognitivos no relacionados con la motivación. 
+
+Las correlaciones entre preferencias y expectativas (como en la política o los deportes) pueden ser causadas por otros factores, como el conocimiento, 
+que influye tanto en las preferencias como en las expectativas, o por causalidad inversa (las expectativas influyen en las preferencias), lo que dificulta 
+aislar la influencia causal del deseo~\cite{krizan2009wishful}.
+
+Si bien está relacionado, el pensamiento ilusorio se considera más amplio en alcance que el sesgo de ``ego-utilidad'', donde las personas creen más fácilmente 
+eventos que se ajustan a su autoimagen~\cite{mayraz2011wishful}.
+En el contexto de la Active Inference, se propone que ``todo pensamiento es pensamiento ilusorio'' en el sentido de que todo pensamiento está motivado~\cite{kruglanski2020all}. 
+Esto se basa en la idea de que la motivación para participar en cualquier comportamiento epistémico (relacionado con el conocimiento) se puede descomponer en 
+dos tipos básicos: el deseo de buscar o evitar la certeza no específica (valor epistémico) y el deseo de buscar o evitar la certeza específica 
+(metas pragmáticas)~\cite{kruglanski2020all}. Si bien el término ``pensamiento ilusorio'' suele reservarse para la motivación de certeza específica, 
+las motivaciones para otras formas de certeza o incertidumbre también pueden considerarse ``deseadas'' o motivadas~\cite{kruglanski2020all}.
+
+\section{Mecanismos y Modelos Subyacentes}
+
+Caplin y Leahy (2019) modelan a los agentes que eligen creencias que aumentan su utilidad subjetiva, sujetas a un costo. Presentan dos formulaciones 
+principales del costo~\cite{caplin2019wishful}:
+
+\begin{enumerate}
+    \item El modelo acumulativo donde los agentes eligen directamente sus creencias posteriores. Esto lleva al optimismo y la sobreconfianza, 
+    y los agentes valoran la incertidumbre porque permite el pensamiento ilusorio.
+    \item El modelo de flujo donde los agentes eligen cómo interpretar las señales que informan sus creencias posteriores. 
+\end{enumerate}
+
+
+Este modelo es más complejo pero genera sesgos más ricos. Los agentes distorsionan su interpretación de las señales para aumentar la probabilidad de los estados
+que aumentan su utilidad esperada. Tienden a aumentar la probabilidad de estados con utilidad superior al promedio. La magnitud de la distorsión es mayor si la 
+probabilidad a priori del estado es alta (debido al costo de distorsionar creencias poco probables). La facilidad con la que los agentes pueden manipular su 
+interpretación de la señal depende de un parámetro $\theta$, donde un $\theta$ mayor facilita la manipulación.
+
+El costo de distorsionar las creencias aumenta con el tamaño de la distorsión. Este costo limita el pensamiento ilusorio, especialmente para eventos muy 
+probables (la probabilidad no puede exceder uno) o muy improbables (la probabilidad cero sigue siendo cero). El pensamiento ilusorio es más fuerte cuando 
+los resultados son inciertos y las diferencias de pago son grandes~\cite{caplin2019wishful}.
+
+
+Mayraz (2011) compara modelos estratégicos y no estratégicos de pensamiento ilusorio. Los modelos estratégicos lo ven como un equilibrio entre el beneficio 
+de las creencias sesgadas y el costo de las malas decisiones futuras, prediciendo que el sesgo disminuye a medida que aumenta el costo de equivocarse~\cite{mayraz2011wishful}. 
+Los modelos no estratégicos, como el modelo ``Priors and Desires'' de Mayraz (2011), lo ven como el resultado de un proceso imperfecto de formación de creencias 
+donde las creencias dependen de las consecuencias de pago de los eventos, independientemente del costo de equivocarse. 
+
+El experimento de Mayraz (2011) 
+encontró que la magnitud del sesgo de pensamiento ilusorio no disminuyó significativamente cuando se aumentaron los incentivos para la precisión de las predicciones, 
+lo que es consistente con los modelos no estratégicos y rechaza formalmente la predicción de un modelo estratégico como el de Brunnermeier y Parker (2005)~\cite{mayraz2011wishful}.
+
+En el marco de la Active Inference, la motivación epistémica impulsa el comportamiento epistémico como un proceso de optimización para minimizar la 
+energía libre esperada o la incertidumbre. Esto implica minimizar la ambigüedad (maximizar la certeza subjetiva sobre los resultados, que se relaciona 
+con la certeza no específica) y minimizar el riesgo (evitar consecuencias ego-distónicas, que se relaciona con la certeza específica)~\cite{kruglanski2020all}. 
+La motivación para resultados específicos corresponde a la motivación epistémica para creer que esos resultados se materializaron.
+
+
+Otras posibles causas o mecanismos mencionados incluyen:
+
+\begin{itemize}
+    \item \textbf{Adivinanza sesgada:} Cuando las predicciones son subjetivamente arbitrarias, las personas tienden a adivinar en una dirección optimista~\cite{krizan2009wishful}..
+    \item \textbf{Atribución errónea de excitación:} Las personas pueden atribuir erróneamente la excitación sobre lo que está en juego a la probabilidad 
+    de que ocurra un resultado, lo que podría aumentar las estimaciones de probabilidad tanto para resultados deseables como indeseables~\cite{krizan2009wishful}..
+    \item \textbf{Relevancia:} El simple hecho de destacar un resultado puede inflar sus estimaciones de probabilidad, un efecto que podría confundirse con el 
+    pensamiento ilusorio basado en la deseabilidad~\cite{krizan2009wishful}..
+\end{itemize}
+
+\section{Manifestaciones y Sesgos Asociados}
+
+El pensamiento ilusorio puede manifestarse en varios sesgos observados en estudios psicológicos~\cite{caplin2019wishful}:
+
+\begin{itemize}
+    \item \textbf{Optimismo.}
+    \item \textbf{Procrastinación:} Retrasar acciones cuando el futuro es incierto, ya que la incertidumbre permite el pensamiento ilusorio.
+    \item \textbf{Sesgo de confirmación:} Interpretar la información de manera que se ajuste a las creencias a priori. Esto está relacionado con el 
+    pensamiento ilusorio si las creencias a priori son el resultado de pensamiento ilusorio pasado y están correlacionadas con los pagos.
+    \item \textbf{Polarización:} Cuando agentes con creencias opuestas interpretan la misma señal y cada uno se convence más de su propia opinión. 
+    Esto puede ocurrir si los pensadores ilusorios valoran los estados de manera diferente y la información es ambigua.
+    \item \textbf{El efecto de dotación (endowment effect).}
+    \item \textbf{La falacia de la planificación:} Subestimar el tiempo necesario para completar una tarea, lo cual es consistente con el pensamiento 
+    ilusorio siempre que la experiencia pasada no sea definitiva. Los incentivos para completar una tarea antes pueden exacerbar este sesgo.
+    \item \textbf{El fenómeno del pie en la puerta (foot-in-the-door phenomenon).}
+    \item \textbf{La sobreconfianza:} Puede ser una manifestación del pensamiento ilusorio y el grado de sesgo de pensamiento ilusorio puede ser 
+    una característica individual estable.
+\end{itemize}
+
+En el ámbito económico, las implicaciones del pensamiento ilusorio incluyen~\cite{caplin2019wishful}:
+
+\begin{itemize}
+    \item \textbf{Reducción del ahorro.}
+    \item \textbf{Comercio basado en información:} Los pensadores ilusorios y los agentes objetivos pueden procesar la información de manera diferente y "aceptar no estar de acuerdo" en sus creencias, lo que puede generar comercio. Las noticias afectan de manera diferente los retornos percibidos, lo que impulsa el comercio.
+    \item \textbf{Burbujas de activos:} Los pensadores ilusorios pueden pujar el precio de un activo por encima de su valor fundamental (determinado por agentes objetivos). Las burbujas pueden comenzar con la introducción de un nuevo activo incierto, seguida de buenas noticias, y los pensadores ilusorios restan importancia a las malas noticias durante la fase de ``vacilación''. Sin embargo, no es ``pensamiento mágico'' y eventualmente el optimismo debe ceder ante la realidad.
+    \item En mercados financieros complejos con interacciones iterativas, la presión financiera puede llevar a apuestas ilusorias (comprar acciones por encima de su valor justificado) lo que a su vez puede generar pensamiento ilusorio (sobreestimar el valor final de las acciones), incluso si las predicciones iniciales de probabilidad no estaban sesgadas. Esto sugiere cómo el comportamiento de otros (como apostar de forma sesgada) puede influir en las propias percepciones de probabilidad y generar sesgo ilusorio.
+\end{itemize}
+
+\section{Moderadores y Limitaciones de la Evidencia}
+
+El sesgo de pensamiento ilusorio es más fuerte cuando la incertidumbre subjetiva es alta. Mayraz (2011) encontró buena evidencia de esto en su experimento. 
+También hay alguna evidencia de un mayor sesgo cuando el pago depende más fuertemente del estado del mundo. El sesgo es más fuerte cuando el estado deseable 
+es ligeramente menos probable que el estado indeseable.
+
+Como se mencionó anteriormente, un hallazgo importante del experimento de Mayraz (2011) es que la magnitud del sesgo fue independiente de la cantidad pagada 
+por predicciones precisas, contrario a las predicciones de modelos estratégicos pero consistente con modelos no estratégicos. Esto sugiere que el pensamiento 
+ilusorio puede afectar significativamente las creencias incluso cuando los costos de equivocarse son altos~\cite{mayraz2011wishful}.
+
+Caplin y Leahy (2019) señalan que el pensamiento ilusorio es más fuerte cuando los resultados son inciertos y las diferencias de pago son grandes. Esto 
+incluye elecciones poco frecuentes (planificación para la jubilación), situaciones difíciles de valorar (bienes raíces) o situaciones con múltiples teorías 
+y poca evidencia para distinguirlas (burbujas de activos). Sin embargo, no es ``pensamiento mágico''; los eventos de baja probabilidad siguen siendo de baja 
+probabilidad~\cite{caplin2019wishful}.
+
+Krizan y Windschitl (2009) argumentan que la evidencia empírica directa del pensamiento ilusorio es sorprendentemente escasa y mixta, especialmente para 
+los juicios de probabilidad subjetiva en eventos naturalistas. La evidencia más fuerte proviene de estudios con predicciones de resultados discretos en 
+juegos de azar (como el paradigma clásico de cartas marcadas). En estos estudios, el sesgo tiende a ser mayor cuando las probabilidades son del 50/50 y 
+disminuye a medida que las probabilidades se vuelven más desiguales. Los incentivos monetarios o instruccionales para ser precisos no parecen reducir el 
+tamaño del sesgo en este paradigma~\cite{krizan2009wishful}.
+Las fuentes destacan la necesidad de más investigación para comprender completamente el pensamiento ilusorio. Se requiere más investigación sobre los 
+mediadores (cómo las preferencias sesgan las predicciones, por ejemplo, a través de la búsqueda de información, la evaluación de evidencia o la formación 
+de respuestas) y moderadores (factores que influyen en el sesgo) del pensamiento ilusorio. Las diferencias entre los hallazgos del razonamiento motivado 
+(que a menudo muestran efectos de auto-beneficio fuertes) y el pensamiento ilusorio (efectos mixtos) son intrigantes y necesitan más atención. 
+No está claro si los sesgos de deseabilidad se manifiestan completamente en estudios de laboratorio con bajas apuestas en comparación con las altas apuestas 
+del mundo real (como la salud). La posibilidad de evitar la decepción (``prepararse para la pérdida'') o las supersticiones (``tentar al destino'') podrían 
+limitar el optimismo ilusorio. La proximidad temporal de un resultado también podría reducir el sesgo~\cite{krizan2009wishful}.
+
+\section{Implicaciones Económicas y Conclusión}
+
+Las fuentes concluyen que el pensamiento ilusorio es un fenómeno real donde el deseo influye en las creencias. Puede tener implicaciones materiales 
+significativas en decisiones económicas importantes~\cite{mayraz2011wishful}. El hallazgo de que el sesgo no disminuye con el costo de equivocarse sugiere que puede afectar 
+cualquier decisión basada en juicio subjetivo, independientemente de las consecuencias~\cite{mayraz2011wishful}.
+
+
+Existe un potencial significativo para que el pensamiento ilusorio afecte decisiones de altas apuestas, especialmente en entornos donde la incertidumbre 
+es irreducible, como en los mercados financieros, la toma de decisiones corporativas o la política, donde los expertos a menudo discrepan. Esto significa 
+que la capacidad de los tomadores de decisiones para reducir la incertidumbre antes de elegir es crucial para mitigar el impacto del pensamiento ilusorio~\cite{mayraz2011wishful}.
+
+En resumen, las fuentes presentan el pensamiento ilusorio como un sesgo motivado donde las creencias se inclinan hacia resultados deseados, con evidencia 
+empírica mixta pero sugerente, particularmente en situaciones inciertas. La distinción entre modelos estratégicos y no estratégicos y la evidencia experimental 
+relacionada (como en Mayraz 2011) es un punto clave. La conexión con la idea de que toda cognición está motivada (Kruglanski et al. 2020) amplía 
+el alcance potencial del concepto. Se reconoce la necesidad de más investigación para comprender completamente cuándo, cómo y por qué ocurre el pensamiento 
+ilusorio y sus implicaciones en entornos complejos y de altas apuestas~\cite{krizan2009wishful}.
+\newpage
+\bibliographystyle{plain} % Choose a bibliography style (e.g., plain, alpha, etc.)
+\bibliography{bibliografia} % Replace 'bibliography' with the name of your .bib file (without the extension)
+
+\end{document}
