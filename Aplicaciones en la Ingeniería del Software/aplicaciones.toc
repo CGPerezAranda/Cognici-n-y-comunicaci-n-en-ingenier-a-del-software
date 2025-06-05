@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Pensamiento y Razonamiento:}{3}{}%
+\contentsline {section}{\numberline {2}Creatividad e Innovación:}{4}{}%
+\contentsline {section}{\numberline {3}Dinámica y Colaboración en Equipos:}{6}{}%
+\contentsline {section}{\numberline {4}Liderazgo}{7}{}%
+\contentsline {section}{\numberline {5}Productividad y Hábitos:}{8}{}%
+\contentsline {section}{\numberline {6}Comunicación (verbal y no verbal):}{10}{}%
+\contentsline {section}{\numberline {7}Afrontar errores:}{11}{}%
+\contentsline {section}{\numberline {8}Experiencia de Usuario (UX), Interfaz de Usuario (UI) y Ética:}{11}{}%
+\contentsline {section}{\numberline {9}Profesionalismo pragmático:}{12}{}%
+\contentsline {section}{\numberline {10}Conclusiones:}{12}{}%
